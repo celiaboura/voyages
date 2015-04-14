@@ -1,0 +1,171 @@
+body {
+    background-size: cover;
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 24px;
+    background: url("images/road.jpg") center top;
+    background-size: cover;
+}
+
+a, a:visited {
+	text-decoration: none;
+    color:#7CAFF2;
+}
+
+a:hover {
+	color: #999999;
+}
+
+h1 {
+	text-indent: -8888px;
+	text-align: center;
+	font-size: 0;
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	padding: 0 20px 10px;
+	font-weight: 700; 
+	padding-top: 20px; 
+	line-height: 22px; 
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px; 
+	line-height: 20px;
+	font-weight: 700; 
+}
+
+p {
+	padding: 0 0 20px;
+	margin: 0;
+	padding: 0 20px;
+	font-weight: 700; 
+	padding-bottom: 10px; 
+	line-height: 20px;
+	font-size: 14px;
+}
+
+img {
+	display: block;
+	width: auto;
+}
+
+#wrapper {
+	width:1000px;
+	background: #FFF;
+	display: block;
+	margin: 0 auto;
+	display: table;
+	padding: 0 15px;
+    font-size: 40px;
+    font-family: 'News Cycle', sans-serif;
+	background: #FFF;
+}
+
+#col {
+	display: inline-block;
+	float: left;
+	width: 270px;
+	margin: 0 0 0 15px;
+}
+
+#content {
+	width: 710px;
+}
+
+#content,
+#col {
+	float: left;
+	display: inline-block;
+}
+
+footer {
+    padding: 0;
+    height: 100px;
+    
+}
+
+footer p {
+	text-align: center;
+	font-size: 25px;
+	padding: 0;
+	
+	border-top: 2px solid #CCC;
+	
+	font-weight: 700; 
+	
+	font-size: 13px;
+	line-height: 100px;
+}
+
+
+nav {
+	display: table;
+	margin: 30px auto;
+	padding: 0;
+	height: 45px;
+}
+
+nav a {
+ 	margin: 0;
+	padding: 0 30px;   
+    display: inline-block; 
+    float: left;
+    list-style:none;
+    text-align:center;
+    font-weight: 400; 
+	line-height: 45px;
+	font-size: 32px;
+  
+}
+
+nav a:hover {
+	background: #F2F2F2;
+	transition: 0.3s;
+}
+
+
+article {
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  transition: 0.3s; 
+  border-top: 2px solid #CCC;
+}
+
+article #part1,
+article #part2 {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+article img {
+	margin-top: 40px;
+	width: 100%;
+}
+
+#col article {
+	border:50px;
+	background: #FFFFFF; 
+}
+
+#col article img {
+	width: 50%;
+	padding: 0 5% 10px;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
